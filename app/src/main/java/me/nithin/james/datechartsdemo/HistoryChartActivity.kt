@@ -10,18 +10,18 @@ import me.nithin.james.HistoryChart
 
 class HistoryChartActivity : AppCompatActivity() {
 
-    internal lateinit var labeltextColorImage: ImageView
-    internal lateinit var valueTextColorImage: ImageView
-    internal lateinit var squareColorImage: ImageView
+    private lateinit var labeltextColorImage: ImageView
+    private lateinit var valueTextColorImage: ImageView
+    private lateinit var squareColorImage: ImageView
 
-    internal var labelTextColor: Int = 0
-    internal var valueTextColor: Int = 0
-    internal var squareColor: Int = 0
+    private var labelTextColor: Int = 0
+    private var valueTextColor: Int = 0
+    private var squareColor: Int = 0
 
-    internal lateinit var historyChart: HistoryChart
-    internal lateinit var cp: ColorPicker
+    private lateinit var historyChart: HistoryChart
+    private lateinit var cp: ColorPicker
 
-    internal lateinit var selectedColorOption: COLOR_OPTIONS
+    private lateinit var selectedColorOption: COLOR_OPTIONS
 
     enum class COLOR_OPTIONS {
         VALUE_TEXT,

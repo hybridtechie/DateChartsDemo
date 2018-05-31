@@ -11,18 +11,18 @@ import me.nithin.james.utils.SampleDataUtils
 
 class FrequencyChartActivity : AppCompatActivity() {
 
-    internal lateinit var textColorImage: ImageView
-    internal lateinit var gridColorImage: ImageView
-    internal lateinit var markerColorImage: ImageView
+    private lateinit var textColorImage: ImageView
+    private lateinit var gridColorImage: ImageView
+    private lateinit var markerColorImage: ImageView
 
     internal var textColor: Int = 0
-    internal var gridColor: Int = 0
-    internal var markerColor: Int = 0
+    private var gridColor: Int = 0
+    private var markerColor: Int = 0
 
-    internal lateinit var frequencyDayChart: FrequencyDayChart
-    internal lateinit var cp: ColorPicker
+    private lateinit var frequencyDayChart: FrequencyDayChart
+    private lateinit var cp: ColorPicker
 
-    internal lateinit var selectedColorOption: COLOR_OPTIONS
+    private lateinit var selectedColorOption: COLOR_OPTIONS
 
     enum class COLOR_OPTIONS {
         TEXT,

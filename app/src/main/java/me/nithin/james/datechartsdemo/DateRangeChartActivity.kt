@@ -11,18 +11,18 @@ import me.nithin.james.utils.SampleDataUtils
 
 class DateRangeChartActivity : AppCompatActivity() {
 
-    internal lateinit var labeltextColorImage: ImageView
-    internal lateinit var valueTextColorImage: ImageView
-    internal lateinit var dateRangeColorImage: ImageView
+    private lateinit var labeltextColorImage: ImageView
+    private lateinit var valueTextColorImage: ImageView
+    private lateinit var dateRangeColorImage: ImageView
 
-    internal var labelTextColor: Int = 0
-    internal var valueTextColor: Int = 0
-    internal var dateRangeColor: Int = 0
+    private var labelTextColor: Int = 0
+    private var valueTextColor: Int = 0
+    private var dateRangeColor: Int = 0
 
-    internal lateinit var dateRangeChart: DateRangeChart
-    internal lateinit var cp: ColorPicker
+    private lateinit var dateRangeChart: DateRangeChart
+    private lateinit var cp: ColorPicker
 
-    internal lateinit var selectedColorOption: COLOR_OPTIONS
+    private lateinit var selectedColorOption: COLOR_OPTIONS
 
     enum class COLOR_OPTIONS {
         VALUE_TEXT,
